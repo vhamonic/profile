@@ -66,8 +66,10 @@ div.card {
 }
 
 img.resize {
-    width:150px;
+    width:250px;
     height: auto;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px #E8F1F5;
 }
 
 .list-inline > li {
