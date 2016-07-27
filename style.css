@@ -66,10 +66,25 @@ div.card {
 }
 
 img.resize {
-    width:250px;
-    height: auto;
-    border-radius: 5%;
-    box-shadow: 2px 2px 2px 2px #E8F1F5;
+  width:250px;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px 2px #E8F1F5;
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .5s ease-in-out;
+}
+
+.resize:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
 }
 
 .list-inline > li {
@@ -78,10 +93,22 @@ img.resize {
   padding-left: 25px;
   width: 100px;
   transform: scale(0.80);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%);
+  -o-transition: .5s ease-in-out;
 }
 
 .list-inline >li:hover {
   transform: scale(1);
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
 }
 
 .img-circle {
